@@ -8,7 +8,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/explanation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click to the button for points!"
@@ -29,14 +28,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.536"
-        android:textSize="55dp"
-        android:textColor="@color/purple_700"/>
+        android:textSize="75dp"
+        android:textColor="#FF4F8D"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Change view if you want to gamble with your score!"
-        android:textColor="@color/black"
+        android:textColor="#F44336"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -49,7 +48,7 @@
         android:layout_height="wrap_content"
         android:onClick="onPoint1Click"
         android:text="+1 Button"
-        app:backgroundTint="#FCAC44"
+        app:backgroundTint="#2DEC46"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
