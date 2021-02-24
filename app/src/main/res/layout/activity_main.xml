@@ -19,10 +19,9 @@
         app:layout_constraintVertical_bias="0.119" />
 
     <TextView
-        android:id="@+id/score"
+        android:id="@+id/scoretext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score: 0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -35,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Change view if you want to gamble with your score!"
-        android:textColor="#F44336"
+        android:textColor="#AF1AA9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

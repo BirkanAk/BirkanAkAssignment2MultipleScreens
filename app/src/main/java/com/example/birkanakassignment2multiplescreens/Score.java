@@ -2,7 +2,7 @@ package com.example.birkanakassignment2multiplescreens;
 
 public class Score {
     private static Score SCORE=null;
-    public int point =0;
+    public static int point =0;
 
     public static Score getInstance(){
         if(Score.SCORE==null){
